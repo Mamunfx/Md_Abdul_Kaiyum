@@ -6,13 +6,18 @@ import {
 } from "react-router-dom";
 
 import './index.css'
-import Navbar from './components/Navbar.jsx';
+import { Home } from './Layouts/Home.jsx';
+import { Dashboard } from './Layouts/Dashboard.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Navbar></Navbar>,
+    element: <Home></Home>,
   },
+  {
+    path:"/dashboard",
+    element:<Dashboard></Dashboard>
+  }
 ]);
 
 createRoot(document.getElementById('root')).render(
