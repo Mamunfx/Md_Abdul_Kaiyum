@@ -1,9 +1,9 @@
 
 export const About_us = () => {
   return (
-    <div className="space-y-8 w-11/12 mx-auto">
+    <div className="space-y-8 lg:w-11/12 mx-auto">
         <h1 className="text-center text-2xl font-bold">আমাদের সম্পর্কে</h1>
-        <div className="flex flex-col gap-6 justify-center w-7/12 mx-auto">
+        <div className="flex flex-col gap-6 justify-center lg:w-7/12 mx-auto">
             <img src="	https://mdabdulkaiyum.in/assets/files/images/about_us/JCHX5RInGE1NTg6QwSCFKMvBNap3OD.jpg" alt="banner_img" className="w-full " />
 
            <p className="p-3 rounded-lg shadow-lg border">

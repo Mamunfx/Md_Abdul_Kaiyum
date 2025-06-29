@@ -7,7 +7,11 @@ import "./index.css";
 import { Dashboard } from "./Layouts/Dashboard.jsx";
 import { Main } from "./Layouts/Main.jsx";
 import { Home } from "./pages/Home.jsx";
+import  { Appointment_list}  from "./Components/Appointment_list.jsx";
+import  { Doctor_visits }  from "./Components/Doctor_visits.jsx";
+import  { Book_appointment }  from "./Components/Book_appointment.jsx";
 import Login from "./pages/Login.jsx"
+import Dragable_Card from "./Components/Dragable_Card.jsx"
 const router = createBrowserRouter([
   {
     path: "/",
@@ -18,13 +22,26 @@ const router = createBrowserRouter([
         element: <Home></Home>,
       },
       {
+        path:"/book_appointment",
+        element:<Book_appointment></Book_appointment>
+      },
+      {
         path: "/dashboard",
         element: <Dashboard></Dashboard>,
         children:[
           {
             path:"/dashboard",
-            element: <h1>This is the dashboard home</h1>
-          }
+            element: <Dragable_Card></Dragable_Card>
+          },
+          {
+            path:"/dashboard/appointment_list",
+            element: <Appointment_list></Appointment_list>
+          },
+          {
+            path:"/dashboard/doctor_visits",
+            element: <Doctor_visits></Doctor_visits>
+          },
+
         ]
       },
       {
