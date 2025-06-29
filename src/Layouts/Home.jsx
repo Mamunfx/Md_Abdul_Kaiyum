@@ -8,6 +8,8 @@ import { Youtube_vid_section } from '../Components/Youtube_vid_section'
 import { Customer_fedback } from '../Components/Customer_fedback'
 import { About_us } from '../Components/About_us'
 import { Second_appoinment_banner } from '../Components/Second_appoinment_banner'
+import { Message_us } from '../Components/Message_us'
+import Map_section from '../Components/Map_section'
 
 export const Home = () => {
   return (
@@ -21,6 +23,8 @@ export const Home = () => {
     <Customer_fedback></Customer_fedback>
     <About_us></About_us>
     <Second_appoinment_banner></Second_appoinment_banner>
+    <Message_us></Message_us>
+    <Map_section></Map_section>
     <Footer></Footer>
     </div>
   )

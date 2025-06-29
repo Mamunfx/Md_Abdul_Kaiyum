@@ -1,3 +1,4 @@
+import BackToTopButton from "../Components/BackToTopButton"
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -45,6 +46,7 @@ export const Hero = () => {
           />
         </SwiperSlide>
       </Swiper>
+      <BackToTopButton></BackToTopButton>
     </div>
   );
 };
