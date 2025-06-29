@@ -1,6 +1,6 @@
 export const Message_us = () => {
   return (
-    <div className="mx-4 md:mx-8 my-8 space-y-10">
+    <div className="mx-4 md:mx-8 my-8 space-y-10 ">
       <h1 className="text-center text-2xl md:text-3xl font-bold">অনুসন্ধান করুন</h1>
       <div className="flex flex-col lg:flex-row items-center gap-8">
         <div className="w-full lg:w-1/2 flex justify-center">
@@ -10,8 +10,8 @@ export const Message_us = () => {
             className=""
           />
         </div>
-        <div className="w-full lg:w-1/2">
-          <div className="card bg-base-100 w-full shadow-xl border">
+        <div className="w-full lg:w-1/2 ">
+          <div className="card bg-base-100 w-full shadow-xl border dark:bg-gray-900 dark:text-white">
             <div className="card-body space-y-6">
               <h2 className="text-center text-xl font-semibold">মেসেজ পাঠান</h2>
               <form className="space-y-10">
@@ -23,7 +23,7 @@ export const Message_us = () => {
                     </label>
                     <input
                       type="text"
-                      className="input input-bordered w-full"
+                      className="input input-bordered w-full dark:text-black"
                       placeholder="নাম"
                       required
                     />
@@ -35,7 +35,7 @@ export const Message_us = () => {
                     </label>
                     <input
                       type="tel"
-                      className="input input-bordered w-full"
+                      className="input input-bordered w-full dark:text-black"
                       placeholder="নাম্বার"
                       required
                     />
@@ -45,7 +45,7 @@ export const Message_us = () => {
                   <label className="label">ইমেইলঃ</label>
                   <input
                     type="email"
-                    className="input input-bordered w-full"
+                    className="input input-bordered w-full dark:text-black"
                     placeholder="আপনার ইমেইল"
                   />
                 </div>
@@ -55,7 +55,7 @@ export const Message_us = () => {
                   </label>
                   <textarea
                     name="মেসেজ"
-                    className="input input-bordered w-full min-h-20 resize-y"
+                    className="input input-bordered w-full min-h-20 resize-y dark:text-black"
                     placeholder="আপনার মেসেজ"
                     required
                   />

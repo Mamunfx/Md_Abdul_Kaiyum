@@ -2,8 +2,8 @@ import { services } from "../../Data/services";
 export const Services = () => {
   const services_data = services;
   return (
-    <div className="space-y-14 w-11/12 mx-auto">
-      <h1 className="text-center text-2xl font-bold">আমাদের সেবা সমূহ</h1>
+    <div className="space-y-14 w-11/12 mx-auto dark:text-black">
+      <h1 className="text-center text-2xl font-bold dark:text-white">আমাদের সেবা সমূহ</h1>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
         {services_data.map((service, i) => (
           <>

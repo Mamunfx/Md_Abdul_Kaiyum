@@ -26,11 +26,11 @@ export default function LoginPage() {
   };
 
   return (
-    <>
+    <div className="text-black dark:bg-gray-900 dark:text-white">
       <Navbar isLoggedIn={isLoggedIn} ></Navbar>
       <div className="min-h-screen flex items-center justify-center  my-16">
         <div className="  bg-white rounded-lg shadow-lg p-8 w-2/5  mx-auto">
-          <h2 className="text-2xl font-bold mb-8 text-center flex gap-2 justify-center items-center">
+          <h2 className="text-2xl font-bold mb-8 text-center flex gap-2 justify-center items-center dark:text-black">
             লগিন করুন 
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -53,7 +53,7 @@ export default function LoginPage() {
               <input
                 id="email"
                 type="email"
-                className="w-full px-4 py-4 border text-xs rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full px-4 py-4 border text-xs rounded focus:outline-none focus:ring-2 focus:ring-blue-500 dark:border-blue-500 dark:text-black"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 autoComplete="email"
@@ -71,7 +71,7 @@ export default function LoginPage() {
               <input
                 id="password"
                 type="password"
-                className="w-full px-4 py-4 border rounded text-xs focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full px-4 py-4 border rounded text-xs focus:outline-none focus:ring-2 focus:ring-blue-500 dark:border-blue-500 dark:text-black"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 autoComplete="current-password"
@@ -107,6 +107,6 @@ export default function LoginPage() {
         </div>
       </div>
       <Footer></Footer>
-    </>
+    </div>
   );
 }

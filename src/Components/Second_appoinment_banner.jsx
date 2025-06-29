@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export const Second_appoinment_banner = () => {
   return (
     <div className="mx-6  ">
@@ -15,6 +17,7 @@ export const Second_appoinment_banner = () => {
             <h1 className="mb-5 text-2xl font-bold">
               চিকিৎসার জন্য নাম লেখাতে আজ‌ই অ্যাপয়েন্টমেন্ট বুক করুন
             </h1>
+            <Link to="/book_appointment">
             <button className=" btn btn-primary btn-lg hover:scale-110 transition-transform duration-300 hover:bg-red-500 hover:border-none">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -26,6 +29,8 @@ export const Second_appoinment_banner = () => {
               </svg>{" "}
               Book Appointment
             </button>
+            </Link>
+            
           </div>
         </div>
       </div>

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 export const Intro_Appoinment = () => {
   return (
@@ -12,7 +13,8 @@ export const Intro_Appoinment = () => {
             স্টাইল।
           </h1>
         </div>
-        <button className="btn btn-primary btn-lg w-full md:w-auto mt-4 md:mt-0 flex items-center justify-center gap-2">
+        <Link to="/book_appointment">
+         <button className="btn btn-primary btn-lg w-full md:w-auto mt-4 md:mt-0 flex items-center justify-center gap-2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 -960 960 960"
@@ -23,6 +25,8 @@ export const Intro_Appoinment = () => {
           </svg>
           Book Appointment
         </button>
+        </Link>
+       
       </div>
     </div>
   );

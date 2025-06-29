@@ -10,6 +10,7 @@ import { Home } from "./pages/Home.jsx";
 import  { Appointment_list}  from "./Components/Appointment_list.jsx";
 import  { Doctor_visits }  from "./Components/Doctor_visits.jsx";
 import  { Book_appointment }  from "./Components/Book_appointment.jsx";
+import  { Bmi_Calcu}  from "./Components/Bmi_Calcu.jsx";
 import Login from "./pages/Login.jsx"
 import Dragable_Card from "./Components/Dragable_Card.jsx"
 const router = createBrowserRouter([
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
       {
         path:"/book_appointment",
         element:<Book_appointment></Book_appointment>
+      },
+      {
+        path:"/bmi_calcu",
+        element:<Bmi_Calcu></Bmi_Calcu>
       },
       {
         path: "/dashboard",

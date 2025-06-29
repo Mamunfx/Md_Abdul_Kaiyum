@@ -1,7 +1,7 @@
 export const Footer = () => {
   return (
     <div>
-      <footer className="footer sm:footer-horizontal text-base-content p-10 text-black grid grid-cols-1 lg:grid-cols-2 justify-between">
+      <footer className="footer sm:footer-horizontal text-base-content p-10 text-black grid grid-cols-1 lg:grid-cols-2 justify-between  dark:bg-gray-900 dark:text-white">
         <aside>
           <img
             src="https://mdabdulkaiyum.in/assets/logo_fav/main_logo_fav.png"
@@ -16,7 +16,7 @@ export const Footer = () => {
         </aside>
         <div className="flex flex-col lg:flex-row gap-12">
           <nav className="flex flex-col gap-4">
-            <h6 className="underline text-lg text-black">ঠিকানা</h6>
+            <h6 className="underline text-lg text-black dark:text-white">ঠিকানা</h6>
             <p className="w-48 text-lg">
               PeaceLibrary DIABETES CENTRE Vill-Sekhpur (Chandpur Brigde)
               Jharkhand Border Po- Bhasaipaikar Ps-Samserganj Dist-Murshidabad
@@ -24,7 +24,7 @@ export const Footer = () => {
             </p>
           </nav>
           <nav className="flex flex-col gap-4">
-            <h6 className="underline text-lg text-black">খোলা থাকে</h6>
+            <h6 className="underline text-lg text-black  dark:text-white">খোলা থাকে</h6>
             <p className="text-lg/8">
               সোম – বৃহস্পতি <br />
               <span className=" font-semibold">(6 AM – 6 PM)</span>
@@ -45,7 +45,7 @@ export const Footer = () => {
           </nav>
 
           <nav className="flex flex-col gap-4">
-            <h6 className="underline text-lg text-black">যোগযোগ</h6>
+            <h6 className="underline text-lg text-black  dark:text-white">যোগযোগ</h6>
             <p className="text-lg/8">
               ফোন:
               <div className="flex justify-center items-center gap-2 text-blue-500">
@@ -143,7 +143,7 @@ export const Footer = () => {
         </div>
       </footer>
       <hr className="mx-4" />
-      <footer className="footer sm:footer-horizontal  text-base-content p-4 ">
+      <footer className="footer sm:footer-horizontal  text-base-content p-4  dark:text-white">
         <aside>
           <p>© 2025 MD ABDUL KAIYUM - Peacelibrary. All Rights Reserved.</p>
         </aside>

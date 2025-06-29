@@ -13,7 +13,7 @@ import { Footer } from '../Components/Footer'
 
 export const Home = () => {
   return (
-    <div className='space-y-28'>
+    <div className='space-y-28 dark:bg-gray-900 dark:text-white'>
       <Navbar />
       <Hero />
       <Facebook_Intro />

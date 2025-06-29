@@ -9,8 +9,8 @@ export const Dashboard = () => {
   const handleSidebarClose = () => setSidebarOpen(false);
 
   return (
-    <div>
-      <div className="fixed top-0 left-0 right-0 z-50 h-16 bg-base-100 shadow-sm px-4 flex items-center">
+    <div className="min-h-screen bg-white text-black dark:bg-gray-900 dark:text-white">
+      <div className="fixed top-0 left-0 right-0 z-50 h-16 bg-base-100 shadow-sm px-4 flex items-center dark:bg-gray-900">
         <div className="flex-1 flex items-center">
           <button
             type="button"
