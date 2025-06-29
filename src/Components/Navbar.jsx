@@ -7,7 +7,7 @@ export default function Navbar() {
 
   return (
     <nav className="w-full bg-white shadow fixed top-0 z-50">
-      <div className="flex items-center justify-between px-4 py-3 md:py-3">
+      <div className="flex items-center justify-between px-4 py-3 md:py-2">
         <Link to="/">
           <img
             src="https://mdabdulkaiyum.in/assets/logo_fav/main_logo_fav.png"
